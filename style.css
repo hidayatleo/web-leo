@@ -1137,4 +1137,138 @@ section {
     }
   
   }
+  @media (max-width: 768px) {
+
+    /* ===== FIX FOTO HOME ===== */
+    .home-img {
+      position: relative;     /* 🔥 kunci */
+      right: auto;
+      top: auto;
+      transform: none;
+      margin: 30px auto 0;
+      pointer-events: auto;
+    }
+  
+    .home-img img {
+      width: 220px;
+      height: 220px;
+    }
+  
+    /* ===== FIX HOME CONTAINER ===== */
+    .home-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    /* ===== FIX HEADER MENU ===== */
+    header {
+      padding: 0 5%;
+      height: auto;
+    }
+  
+    .navbar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+    }
+  
+    .navbar a {
+      font-size: 14px;
+      margin-left: 0;
+    }
+  
+  }
+
+/* ================== MOBILE FIX FINAL ================== */
+@media (max-width: 768px) {
+
+    /* HEADER */
+    header {
+      position: fixed;
+      padding: 12px 5%;
+      height: auto;
+      flex-direction: column;
+    }
+  
+    .logo {
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+  
+    .navbar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 14px;
+    }
+  
+    .navbar a {
+      font-size: 14px;
+      margin: 0;
+    }
+  
+    /* HOME */
+    .home {
+      height: auto;
+      padding: 130px 5% 40px;
+      text-align: center;
+    }
+  
+    .home-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .home-content h1 {
+      font-size: 28px;
+    }
+  
+    .home-content h3 {
+      font-size: 18px;
+    }
+  
+    .home-content p {
+      font-size: 14px;
+    }
+  
+    /* FOTO PROFIL */
+    .home-img {
+      position: relative;   /* 🔥 PALING PENTING */
+      top: auto;
+      right: auto;
+      transform: none;
+      margin-top: 30px;
+    }
+  
+    .home-img img {
+      width: 220px;
+      height: 220px;
+    }
+  
+    /* ABOUT */
+    .about {
+      grid-template-columns: 1fr;
+      text-align: center;
+      padding: 60px 5%;
+    }
+  
+    /* SERVICES */
+    .services-list {
+      grid-template-columns: 1fr;
+    }
+  
+    /* PORTFOLIO */
+    .portfolio-content {
+      grid-template-columns: 1fr;
+    }
+  
+    /* CONTACT */
+    .contact {
+      grid-template-columns: 1fr;
+      padding: 60px 5%;
+    }
+  
+  }
+  
   
