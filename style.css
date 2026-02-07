@@ -1285,3 +1285,56 @@ section {
       width: 120px;
       height: 120px;
     }
+    /* ================= MOBILE RESPONSIVE ================= */
+@media (max-width: 768px) {
+
+    body {
+      overflow-x: hidden;
+    }
+  
+    header {
+      padding: 12px 5%;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .home {
+      flex-direction: column;
+      text-align: center;
+      height: auto;
+      padding: 100px 20px 40px;
+    }
+  
+    .home-content h1 {
+      font-size: 28px;
+    }
+  
+    .home-content h3 {
+      font-size: 18px;
+    }
+  
+    .home-content p {
+      font-size: 14px;
+      line-height: 1.6;
+    }
+  
+    .social-media {
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  
+    .home-img img {
+      width: 220px;
+      height: 220px;
+      margin-top: 30px;
+    }
+  
+    .btn {
+      padding: 10px 22px;
+      font-size: 14px;
+    }
+  }
+  
