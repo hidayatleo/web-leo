@@ -1036,3 +1036,105 @@ section {
     padding: 10px;
     border-radius: 0.5rem;
 }
+
+@media (max-width: 768px) {
+
+    /* ===== HEADER ===== */
+    .header {
+      padding: 15px 5%;
+      flex-direction: column;
+    }
+  
+    .navbar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+    }
+  
+    .navbar a {
+      font-size: 14px;
+    }
+  
+    /* ===== HOME ===== */
+    .home {
+      flex-direction: column;
+      height: auto;
+      padding: 120px 5% 50px;
+      text-align: center;
+    }
+  
+    .home-content {
+      max-width: 100%;
+    }
+  
+    .home-content h1 {
+      font-size: 28px;
+    }
+  
+    .home-content h3 {
+      font-size: 18px;
+    }
+  
+    .home-img {
+      margin-top: 30px;
+    }
+  
+    .home-img img {
+      width: 220px;
+      height: auto;
+    }
+  
+    /* ===== ABOUT ===== */
+    .about {
+      flex-direction: column;
+      padding: 50px 5%;
+      text-align: center;
+    }
+  
+    .about-img img {
+      width: 250px;
+    }
+  
+    /* ===== SERVICES ===== */
+    .services-list {
+      grid-template-columns: 1fr;
+    }
+  
+    /* ===== SKILLS ===== */
+    .container1 {
+      width: 100%;
+      padding: 20px;
+    }
+  
+    .Technical-bars .bar {
+      width: 100%;
+    }
+  
+    .radial-bars {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+  
+    /* ===== PORTFOLIO ===== */
+    .portfolio-content {
+      grid-template-columns: 1fr;
+    }
+  
+    .row img {
+      width: 100%;
+    }
+  
+    /* ===== CONTACT ===== */
+    .contact {
+      flex-direction: column;
+      padding: 50px 5%;
+    }
+  
+    .contact-form form input,
+    .contact-form form textarea {
+      width: 100%;
+    }
+  
+  }
+  
